@@ -173,7 +173,12 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
 
         }}/>],
 
-          pressableFunctions: [()=>console.log("Você Clicou!")],
+          pressableFunctions: [
+        (...args) => {
+          // ---------- get Function from A_Project Scope
+          return tools.goTo("sc1");
+        }
+        ],
 
           args,
         }}/>],
