@@ -154,7 +154,24 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
               }
               ],
 
-          childrenItems: [()=><></>],
+          childrenItems: [(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            jsvals.j8({pass: {
+          propertieValues: "Botão do Carlos"
+        }})
+          ],
+
+          args,
+
+        }}/>],
 
           pressableFunctions: [()=>console.log("Você Clicou!")],
 
