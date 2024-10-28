@@ -423,9 +423,9 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
 
       styles:[
 stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "10px"
+          propertieValues: "14px"
         }})] }}), stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "100px"
+          propertieValues: "120px"
         }})] }})],
 
       URIvariablePath:[jsvals.j8({pass: {
