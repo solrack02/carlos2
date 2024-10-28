@@ -431,7 +431,7 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
         }})] }})],
 
       URIvariablePath:[jsvals.j8({pass: {
-          propertieValues: "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/logo_poupi.png?alt=media&token=86a41293-886c-4d0c-bf9c-b2d515f26edd"
+          propertieValues: "https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/FlaxFood.png?alt=media&token=e3312165-1cea-4f13-a0a9-5b431b59b464"
         }})],
 
       args,
